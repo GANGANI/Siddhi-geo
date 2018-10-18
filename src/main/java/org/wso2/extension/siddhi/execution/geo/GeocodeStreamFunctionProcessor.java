@@ -83,7 +83,7 @@ import java.util.Map;
 public class GeocodeStreamFunctionProcessor extends StreamFunctionProcessor {
 
     private static final Logger LOGGER = Logger.getLogger(GeocodeStreamFunctionProcessor.class);
-    private final Geocoder geocoder = new Geocoder("106044839002339511255", "AIzaSyD_Uqg4U4TbEPOBhyhYgHB45mlAucG8f7I");
+    private final Geocoder geocoder = new Geocoder("XXXXXXXXXXXX", "YYYYYYYYYYYYYYYYYYY");
     private boolean debugModeOn;
 
     public GeocodeStreamFunctionProcessor() throws InvalidKeyException {
